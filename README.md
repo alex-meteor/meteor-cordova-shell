@@ -8,6 +8,11 @@ I wasted a *lot* of time getting Meteor and PhoneGap to work. The current PhoneG
 
 If you would like to get a head start on the UI, i've open sourced a Meteor boilerplate with a micro framework that includes the basic mobile components like a tray, tableviews, native scroll, etc... Get it [here](https://github.com/AdamBrodzinski/meteor-mobile-boilerplate)
 
+**ToDo**
+- Detect if offline and show offline page
+- Replace icons and splash screen
+
+
 
 ## Setup
 - Install Xcode
