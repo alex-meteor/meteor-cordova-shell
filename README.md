@@ -12,31 +12,28 @@ If you would like to get a head start on the UI, i've open sourced a Meteor boil
 ## Setup
 - Install Xcode
 - Install NodeJS
-- Install Cordova command line  `sudo npm install -g cordova`
+- Install Cordova command line  
+   `sudo npm install -g cordova`
 
 
 ## Usage
 
-Pull down this repo
+- Pull down this repo  
 `git clone https://github.com/AdamBrodzinski/meteor-cordova-shell.git`
 
-Sample App Ready should be flashing
+- Sample App Ready should be flashing
 
-Test in iOS simulator
-`cordova emulate ios` or `make simulator_ios`
+- Test in iOS simulator `cordova emulate ios` or `make simulator_ios`
 
-Sample App 'ready' icon should be flashing
+- Sample App 'ready' icon should be flashing
 
 #### Load your Meteor site
 
-Edit root index file and put your Meteor server url in
-`www/index.html` Line 35: `meteorUrl:  "http://yourapp.meteor.com",`
+- Edit root index file and put your Meteor server url in `www/index.html` Line 35: `meteorUrl:"http://yourapp.meteor.com",`
 
-Build changes from `www` folder into iOS project (`platforms/ios`)
-`cordova build ios` or `make ios`
+- Build changes from `www` folder into iOS project `cordova build ios` or `make ios`
 
-Test in iOS simulator
-`cordova emulate ios` or `make simulator_ios`
+- Test in iOS simulator `cordova emulate ios` or `make simulator_ios`
 
 
 
@@ -46,17 +43,13 @@ Test in iOS simulator
 
 - Open terminal and cd into your projects directory
 
-- Create Cordova Phonegap app, enter a name, identifer, and display name (can be changed later)
-  `cordova create example com.example Example`
+- Create Cordova Phonegap app, enter a name, identifer, and display name (can be changed later) `cordova create example com.example Example`
   
-- Add the iOS platform to your Cordova build
-  `cordova platform add ios`
+- Add the iOS platform to your Cordova build `cordova platform add ios`
   
-- Build changes
-  `cordova build ios`
+- Build changes `cordova build ios`
 
-- Fire up iOS simulator to make sure it's loading
-  `cordova emulate ios`
+- Fire up iOS simulator to make sure it's loading `cordova emulate ios`
   
 - Add PhoneGap plugins to make development easier
 ```
@@ -66,7 +59,7 @@ cordova plugin add org.apache.cordova.splashscreen
 ```
 
 - Pull down Meteor-Rider and copy all js files into your `/www/js` folder (not `/platform/...`)
-- Copy `index.html` from the MeteorRider folder to `/www/index.html`
+- Copy and overwrite `index.html` from the MeteorRider folder to `/www/index.html`
 - Rename `cordova-2.4.0` to `cordova.js`
 
 
