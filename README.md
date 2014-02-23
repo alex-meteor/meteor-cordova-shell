@@ -60,7 +60,7 @@ cordova plugin add org.apache.cordova.splashscreen
 
 - Pull down Meteor-Rider and copy all js files into your `/www/js` folder (not `/platform/...`)
 - Copy and overwrite `index.html` from the MeteorRider folder to `/www/index.html`
-- Rename `cordova-2.4.0` to `cordova.js`
+- In new index.html, Rename `cordova-2.4.0` to `cordova.js`
 
 
 Your app should be loaded!  
