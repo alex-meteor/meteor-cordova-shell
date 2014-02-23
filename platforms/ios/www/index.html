@@ -44,6 +44,11 @@
             // to update xcodes version number. AppStore also requires >= 1.0 on submission
             phonegapAppVersion: 0.1
           };
+        
+          // Change status bar back to black TODO change in config somehow
+          document.addEventListener("deviceready", function(){
+            StatusBar.styleDefault()
+          }, false);
 
           // Start up the phonegap
           phonegapapp.initialize();
