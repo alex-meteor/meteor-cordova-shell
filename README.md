@@ -26,8 +26,6 @@ If you would like to get a head start on the UI, i've open sourced a Meteor boil
 - Pull down this repo  
 `git clone https://github.com/AdamBrodzinski/meteor-cordova-shell.git`
 
-- Sample App Ready should be flashing
-
 - Test in iOS simulator `cordova emulate ios` or `make simulator_ios`
 
 - Sample App 'ready' icon should be flashing
@@ -66,7 +64,8 @@ cordova plugin add org.apache.cordova.splashscreen
 - Pull down Meteor-Rider and copy all js files into your `/www/js` folder (not `/platform/...`)
 - Copy and overwrite `index.html` from the MeteorRider folder to `/www/index.html`
 - In new index.html, Rename `cordova-2.4.0` to `cordova.js`
-
+- Plug in your apps url into index.html
+- Fire up simulator
 
 Your app should be loaded!  
 
