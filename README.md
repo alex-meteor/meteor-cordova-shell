@@ -28,11 +28,11 @@ If you would like to get a head start on the UI, i've open sourced a Meteor boil
 
 - Test in iOS simulator `cordova emulate ios` or `make simulator_ios`
 
-- Sample App 'ready' icon should be flashing
+- [Meteor Mobile Boilerplate](https://github.com/AdamBrodzinski/meteor-mobile-boilerplate) demo should be loaded
 
 #### Load your Meteor site
 
-- Edit root index file and put your Meteor server url in `www/index.html` Line 35: `meteorUrl:"http://yourapp.meteor.com",`
+- Edit root index file and put your Meteor server url in [www/index.html Line 35](https://github.com/AdamBrodzinski/meteor-cordova-shell/blob/master/www/index.html#L35) to `meteorUrl:"http://yourapp.meteor.com",`
 
 - Build changes from `www` folder into iOS project `cordova build ios` or `make ios`
 
