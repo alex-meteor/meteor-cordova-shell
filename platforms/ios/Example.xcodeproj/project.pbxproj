@@ -41,6 +41,7 @@
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 		BFF99AC02B1F434BAF64905A /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9E360F1ACB40B085E58FA1 /* CDVDevice.m */; };
 		DC2DEFEC14B04A30A63CE72E /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C19A8C621E5947A48282A9B8 /* CDVSplashScreen.m */; };
+		89937327EABA44018B4ACAB1 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F19436EFE24C8C81BECFA2 /* CDVStatusBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,8 @@
 		4CD2F5C306214F8B8DFD33A5 /* CDVDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVDevice.h"; path = "org.apache.cordova.device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		C19A8C621E5947A48282A9B8 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		BCB49359DCAB4B34B03C50FE /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "org.apache.cordova.splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		39F19436EFE24C8C81BECFA2 /* CDVStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVStatusBar.m"; path = "org.apache.cordova.statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		EB6E318C937C4C1FB1AFB379 /* CDVStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVStatusBar.h"; path = "org.apache.cordova.statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +231,8 @@
 				4CD2F5C306214F8B8DFD33A5 /* CDVDevice.h */,
 				C19A8C621E5947A48282A9B8 /* CDVSplashScreen.m */,
 				BCB49359DCAB4B34B03C50FE /* CDVSplashScreen.h */,
+				39F19436EFE24C8C81BECFA2 /* CDVStatusBar.m */,
+				EB6E318C937C4C1FB1AFB379 /* CDVStatusBar.h */,
 			);
 			name = Plugins;
 			path = "Example/Plugins";
@@ -415,6 +420,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				BFF99AC02B1F434BAF64905A /* CDVDevice.m in Sources */,
 				DC2DEFEC14B04A30A63CE72E /* CDVSplashScreen.m in Sources */,
+				89937327EABA44018B4ACAB1 /* CDVStatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
