@@ -26,6 +26,10 @@ If you would like to get a head start on the UI, i've open sourced a Meteor boil
 - Pull down this repo  
 `git clone https://github.com/AdamBrodzinski/meteor-cordova-shell.git`
 
+- `cd meteor-cordova-shell`
+
+- `cordova platform update ios`
+
 - Test in iOS simulator `cordova emulate ios` or `make simulator_ios`
 
 - [Meteor Mobile Boilerplate](https://github.com/AdamBrodzinski/meteor-mobile-boilerplate) demo should be loaded
