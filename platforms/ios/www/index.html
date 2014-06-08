@@ -35,20 +35,15 @@
             meteorUrl:  "http://mobile-boilerplate.meteor.com",
             
             // Your local dev meteor server url                        
-            //meteorUrl:  "http://10.0.1.4:3000",
+            //meteorUrl:  "http://192.168.1.XX:3000",
 
             // track Cordova version, bump this after a `cordova update <platform>`
-            phonegapVersion: 3.3,
+            phonegapVersion: 3.5,
 
             // make sure to bump this along with /www/config.xml version and build
             // to update xcodes version number. AppStore also requires >= 1.0 on submission
             phonegapAppVersion: 0.1
           };
-        
-          // Change status bar back to black TODO change in config somehow
-          document.addEventListener("deviceready", function(){
-            StatusBar.styleDefault()
-          }, false);
 
           // Start up the phonegap
           phonegapapp.initialize();
