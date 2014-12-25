@@ -1,6 +1,8 @@
 meteor-cordova-shell
 ====================
 
+## Note, this is deprecated. Please use Meteor's Cordova integration instead!
+
 I created a basic boilerplate to get people up and running quickly. It utilizes MeteorRider. It's based off of the [Blonk](http://blonk.co) app.
 Search for it on the AppStore and Google Play store to see a running example.
 
@@ -8,7 +10,6 @@ I wasted a *lot* of time getting Meteor and PhoneGap to work. The current PhoneG
 
 If you would like to get a head start on the UI, i've open sourced a Meteor boilerplate with a micro framework that includes the basic mobile components like a tray, tableviews, native scroll, etc... Get it [here](https://github.com/AdamBrodzinski/meteor-mobile-boilerplate)
 
-## Note, MeteorRider recently updated to 1.0, this does not yet use the new version. In the mean time please use that for your production app
 
 **ToDo**
 - Detect if offline and re-init meteor rider until connected
